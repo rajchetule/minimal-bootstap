@@ -1,0 +1,63 @@
+/*generic section*/
+/*body{position: relative;padding-top: 84px;}*/
+.container-fluid, .container-fluid .row, .container-fluid .row .col{margin: 0;padding: 0;}
+.container{max-width: 1024px;margin: auto;}
+h1{font-size: 42px;font-family: segoe-wp-light;}
+h2{font-size: 40px;font-family: segoe-wp-light;}
+h4{font-size: 22px;color: #F4FAF9;}
+h5{font-size: 17px;color: #F4FAF9;}
+p{font-size: 15px ;color: #BEBEBE;}
+/*font css*/
+@font-face{src:url(../font/segoe-wp-light.ttf);font-family: segoe-wp-light;}
+@font-face{src:url(../font/segoe-wp-black.ttf);font-family: segoe-wp-black;}
+/*base css*/
+/*header section*/
+header .navbar{padding: 24px 0 14px;}
+header .navbar .navbar-brand{padding: 0;}
+.bord{border-right: 1px solid #666666;padding:0 17px;}
+.nav-item .nav-link{padding:0 17px;}
+/*.nav-item  .bord:last-child {border-right:none;padding: 0;}*/
+/*banner section*/
+.banner{background-image: url(../img/bannar.png);background-repeat: no-repeat;background-size: cover;padding: 55px 0 32px;}
+.clr-1{text-decoration: none;border:none;background-color: #259d8e;}
+.clr-2{text-decoration: none;border:none;background-color: #54d3c3;color: white;}
+/*about section*/
+.about{padding: 46px 0 122px;}
+.about h1{color: #6B6B6B;}
+.about p{margin: 28px 0 38px;}
+/*service section*/
+.service1{background-image: url(../img/service_banner.png);background-repeat: no-repeat;background-size: cover;}
+.service_icon .icon1{background-color: #01646c;}
+.service_icon .icon2{background-color: #097b84;}
+.service_icon .icon3{background-color: #118f99;}
+.service_icon .icon4{background-color: #1da0aa;}
+.service_icon .icon5{background-color: #29b7c2;}
+.service_icon .icon6{background-color: #3ccad5;}
+.service{padding: 111px 0 76px;}
+.btn3{border:none;background-color: #3edac6;}
+.btn4{border:none;background-color: #06ccb3;color: white;}
+/*section4*/
+.sec4{color: #49d7b0;}
+.sec4 h1{font-size: 90px;margin: 0;padding: 0;}
+.sec4 h3{font-family: segoe-wp-black; font-size: 180px;color: #49d7b0;margin: 0;padding: 0;}
+.sec4 .bg-ar{background-color: #49D7B0;padding:132px 0px;}
+/*footer section*/
+footer p{margin: 0;}
+
+/*mediaquery section*/
+@media (max-width: 991.98px) {
+	/*.banner{padding: 0;}*/
+	.sec4 h3{font-size: 70px;}
+	.sec4 h1{font-size: 50px;}
+	h1{font-size: 35px;}
+	h2{font-size: 32px;}
+	h4{font-size: 18px;}
+	h5{font-size: 12px;}
+	p{font-size: 10px;}
+	img{width: 100%;}
+
+}
+
+
+
+
